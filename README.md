@@ -63,7 +63,8 @@ Nossas iniciativas no GitHub estão voltadas para a digitalização e otimizaç�
 | **Instagram** | [@juruaestaleiro](https://www.instagram.com/juruaestaleiro/) |
 | **Contato técnico** | `suporte@juruaestaleiro.com.br` |
 | **Comercial** | `contato@juruaestaleiro.com.br` · +55 92 98555-6568 |
-| **Estaleiro** | Rua Francisco Messias Cameli, s/n — Cacau Pirêra, Iranduba/AM |
+| **Estaleiro** | Rua Francisco Messias Cameli, s/n — Cacau Pirêra, Iranduba/AM — CEP 69.415-000 |
+| **Trabalhe conosco** | WhatsApp (92) 98555-6506 — [juruaestaleiro.com.br/contato](https://juruaestaleiro.com.br/contato/) |
 
 <sub>Este repositório reúne material institucional e documentação da Juruá Estaleiro e Navegação. Conteúdo, marca e projetos citados pertencem à empresa; não há licença de uso aberta por padrão.</sub>
 
