@@ -2,7 +2,7 @@
      width="1200" height="460" viewBox="0 0 1200 460"
      role="img" aria-labelledby="wfTitle wfDesc">
   <title id="wfTitle">Do aço ao comboio em operação</title>
-  <desc id="wfDesc">Quatro etapas do processo: aço processado, construção naval, telemetria embarcada e rota hidrográfica, com ajuste sazonal de calado entre cheia e seca.</desc>
+  <desc id="wfDesc">Quatro etapas do processo: aço processado, construção naval, comboios em operação e gestão apoiada pelo sistema interno, com ajuste sazonal de calado entre cheia e seca.</desc>
 
   <defs>
     <linearGradient id="wfNavy" x1="0" y1="0" x2="0" y2="1">
@@ -48,30 +48,30 @@
       <text x="24" y="332" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" fill="#E9ECEF" opacity="0.66">terminais · fundeio</text>
     </g>
 
-    <!-- 03 telemetria -->
+    <!-- 03 operação -->
     <g transform="translate(610 0)">
       <rect x="0" y="172" width="253" height="172" rx="14" fill="#F26522" fill-opacity="0.07" stroke="#F26522" stroke-opacity="0.55" stroke-width="1.5"/>
-      <g transform="translate(24 194)">
-        <path d="M6 50 L 40 30 L 64 40 L 104 8" fill="none" stroke="#F26522" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="104" cy="8" r="6" fill="#F26522"/>
-        <circle cx="6" cy="50" r="5" fill="#E9ECEF"/>
-      </g>
-      <text x="24" y="288" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Telemetria</text>
-      <text x="24" y="312" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" fill="#E9ECEF" opacity="0.66">IoT embarcado · MQTT</text>
-      <text x="24" y="332" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" fill="#E9ECEF" opacity="0.66">motor · combustível</text>
-    </g>
-
-    <!-- 04 rota -->
-    <g transform="translate(883 0)">
-      <rect x="0" y="172" width="253" height="172" rx="14" fill="#4A5568" fill-opacity="0.16" stroke="#4A5568" stroke-width="1.5"/>
       <g transform="translate(24 196)">
         <path d="M0 26 C 30 8, 74 42, 110 22 S 160 6, 200 12" fill="none" stroke="#F26522" stroke-width="3" stroke-dasharray="8 6" stroke-linecap="round"/>
         <circle cx="0" cy="26" r="5" fill="#F26522"/>
         <circle cx="200" cy="12" r="5" fill="#FFFFFF"/>
       </g>
-      <text x="24" y="288" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Rota</text>
-      <text x="24" y="312" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" fill="#E9ECEF" opacity="0.66">GIS · PostGIS · QGIS</text>
-      <text x="24" y="332" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" fill="#E9ECEF" opacity="0.66">calado · comboio</text>
+      <text x="24" y="288" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Operação</text>
+      <text x="24" y="312" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" fill="#E9ECEF" opacity="0.66">comboios fluviais</text>
+      <text x="24" y="332" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" fill="#E9ECEF" opacity="0.66">Manaus · Rio Negro</text>
+    </g>
+
+    <!-- 04 gestão -->
+    <g transform="translate(883 0)">
+      <rect x="0" y="172" width="253" height="172" rx="14" fill="#4A5568" fill-opacity="0.16" stroke="#4A5568" stroke-width="1.5"/>
+      <g transform="translate(24 194)">
+        <path d="M6 50 L 40 30 L 64 40 L 104 8" fill="none" stroke="#F26522" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="104" cy="8" r="6" fill="#F26522"/>
+        <circle cx="6" cy="50" r="5" fill="#E9ECEF"/>
+      </g>
+      <text x="24" y="288" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Gestão</text>
+      <text x="24" y="312" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" fill="#E9ECEF" opacity="0.66">JCORE · almoxarifado</text>
+      <text x="24" y="332" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" fill="#E9ECEF" opacity="0.66">estoque · expedição</text>
     </g>
 
     <!-- number badges on the connector -->
@@ -91,7 +91,7 @@
       <g transform="translate(544 0)">
         <rect width="528" height="42" rx="21" fill="#F26522" fill-opacity="0.18"/>
         <circle cx="24" cy="21" r="7" fill="#F26522"/>
-        <text x="42" y="28" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="19" fill="#FFFFFF">seca: calado restrito, rotas recalculadas</text>
+        <text x="42" y="28" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="19" fill="#FFFFFF">seca: calado restrito, viagens planejadas por trecho</text>
       </g>
     </g>
   </g>
