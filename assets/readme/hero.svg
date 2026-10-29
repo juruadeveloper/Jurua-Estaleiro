@@ -2,7 +2,7 @@
      width="1200" height="430" viewBox="0 0 1200 430"
      role="img" aria-labelledby="heroTitle heroDesc">
   <title id="heroTitle">Juruá Estaleiro e Navegação</title>
-  <desc id="heroDesc">Estaleiro em Iranduba, Amazonas: construção de balsas, empurradores e terminais, logística fluvial e telemetria embarcada para navegação no Rio Negro e na bacia amazônica.</desc>
+  <desc id="heroDesc">Estaleiro em Iranduba, Amazonas: construção de balsas, empurradores e terminais, logística fluvial e gestão interna apoiada por software próprio na bacia amazônica.</desc>
 
   <defs>
     <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
@@ -52,14 +52,14 @@
       <text x="0" y="308" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17" fill="#E9ECEF" opacity="0.5">Iranduba/AM · margem direita do Rio Negro · +40 anos</text>
     </g>
 
-    <!-- telemetry readout -->
+    <!-- sistema interno -->
     <g transform="translate(764 52)">
       <rect width="336" height="126" rx="16" fill="#0E1E38" stroke="#4A5568" stroke-width="1.5"/>
       <circle cx="26" cy="28" r="6" fill="#F26522"/>
-      <text x="42" y="34" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" fill="#F26522" letter-spacing="1.2">TELEMETRIA · TEMPO REAL</text>
-      <text x="26" y="68" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="19" fill="#FFFFFF">combustível  82%</text>
-      <text x="26" y="92" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="19" fill="#FFFFFF">calado  2,4 m</text>
-      <text x="26" y="114" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" fill="#E9ECEF" opacity="0.55">comboio CJ-07 · Rio Negro</text>
+      <text x="42" y="34" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" fill="#F26522" letter-spacing="1.2">JCORE · SISTEMA INTERNO</text>
+      <text x="26" y="68" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="19" fill="#FFFFFF">almoxarifado</text>
+      <text x="26" y="92" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="19" fill="#FFFFFF">Python · Flask</text>
+      <text x="26" y="114" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" fill="#E9ECEF" opacity="0.55">PostgreSQL · Docker</text>
     </g>
 
     <!-- route card -->

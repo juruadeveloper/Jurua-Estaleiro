@@ -4,7 +4,7 @@
 
   <p>
     <a href="https://juruaestaleiro.com.br"><img src="https://img.shields.io/badge/Setor-Naval%20%26%20Log%C3%ADstica-0A2540?style=for-the-badge&logo=anchor&logoColor=white" alt="Setor: naval e logística"></a>
-    <a href="#stack-tecnológico"><img src="https://img.shields.io/badge/Foco-IoT%20%7C%20Telemetria%20%7C%20GIS-F26522?style=for-the-badge" alt="Foco tecnológico: IoT, telemetria e GIS"></a>
+    <a href="#focos-de-desenvolvimento--engenharia"><img src="https://img.shields.io/badge/Software-JCORE-F26522?style=for-the-badge" alt="Software: sistema interno JCORE"></a>
     <a href="https://juruaestaleiro.com.br"><img src="https://img.shields.io/badge/Regi%C3%A3o-Amaz%C3%B4nia-2B2D42?style=for-the-badge&logo=leaflet&logoColor=white" alt="Região: Amazônia"></a>
   </p>
 
@@ -23,36 +23,36 @@ A **Juruá** é referência na construção, manutenção naval e transporte hid
 - **Construção & Reparo:** empurradores, balsas (grãos, fertilizantes, granéis líquidos e sólidos), barco hotel e embarcações operacionais sob projeto.
 - **Infraestrutura Fluvial:** estações de transbordo, terminais portuários, sistemas de fundeio (poitas, correntes, anilhas) e acessórios como cabeços, escotilhas e tanques.
 - **Logística Fluvial:** transporte integrado conectando o Polo Industrial de Manaus às principais rotas hidroviárias.
-- **Tecnologia Aplicada:** ferramentas internas para monitoramento de frota, inteligência hidrográfica e gestão logística.
+- **Tecnologia Aplicada:** primeiros passos em software próprio, com um sistema interno de gestão de almoxarifado em desenvolvimento.
 
 ## Como operamos
 
-<img src="./assets/readme/workflow.svg" width="100%" alt="Do aço ao comboio em operação em quatro etapas: aço processado, construção naval, telemetria embarcada e rota hidrográfica, com ajuste sazonal de calado entre cheia e seca" />
+<img src="./assets/readme/workflow.svg" width="100%" alt="Do aço ao comboio em operação em quatro etapas: aço processado, construção naval, comboios em operação e gestão com sistema interno, além do ajuste sazonal de calado entre cheia e seca" />
 
 ## Focos de desenvolvimento & engenharia
 
-Nossas iniciativas no GitHub estão voltadas para a digitalização e otimização das operações navais e fluviais:
+A Juruá está **começando a atuar em desenvolvimento de software**. O primeiro passo é o **JCORE**, sistema interno de gestão de almoxarifado — por isso esta frente ainda está em formação, sem portfólio de produtos publicados.
 
-- **Telemetria e IoT embarcado:** monitoramento de consumo de combustível, desempenho de motores e navegação em áreas remotas.
-- **Geoprocessamento (GIS) & rotas:** análise hidrográfica, previsão de calado e otimização de comboios durante as variações sazonais dos rios (cheia e seca).
-- **Manutenção preventiva:** controle de docagem, caldeiraria e ciclo de vida de ativos navais.
+- **JCORE — sistema interno:** controle de almoxarifado, saldo por endereço, recebimento por nota fiscal, separação, picking e expedição.
+- **Objetivo:** dar à operação do estaleiro informação confiável de estoque e rastreabilidade de materiais.
+- **Estágio atual:** em desenvolvimento ativo dentro da empresa, com uma stack enxuta e foco em aprendizado de processo (versionamento, banco de dados e deploy).
 
 ## Stack tecnológico
 
-| Categoria | Tecnologias utilizadas |
+A stack que usamos hoje:
+
+| Camada | Tecnologias |
 | :--- | :--- |
-| **Linguagens** | `Python` `JavaScript / TypeScript` `C++ (IoT/Sensores)` |
-| **Dados & GIS** | `PostgreSQL / PostGIS` `QGIS` `Pandas` |
-| **Infraestrutura** | `Docker` `Linux Embarcado` `MQTT` |
-| **Integrações** | REST APIs, Telemetria via Satélite |
+| **Aplicação** | `Python` `Flask` `HTML` |
+| **Dados & ambiente** | `PostgreSQL` `Docker` `Git` |
 
-## Repositórios & projetos em destaque
+## Repositórios & projetos
 
-> *Nota: alguns dos nossos repositórios são mantidos de forma privada para proteção de propriedade intelectual e segurança das operações de navegação.*
+Além deste repositório institucional, mantemos **um único repositório de código**:
 
-- **`telemetry-core`** — módulos de coleta e processamento de dados para sensores de bordo.
-- **`river-route-planner`** — ferramentas auxiliares para cálculo de tempo de viagem e calado ideal no ecossistema amazônico.
-- **`fleet-analytics`** — dashboards e algoritmos para eficiência energética de comboios fluviais.
+| Repositório | O que é |
+| :--- | :--- |
+| **`JCORE`** | Sistema interno de gestão de almoxarifado do estaleiro: saldo por endereço, recebimento por nota fiscal, separação, picking e expedição. Python + Flask + PostgreSQL. Repositório privado (*Juruá Central Operations & Resource Entry*). |
 
 ## Contato
 
