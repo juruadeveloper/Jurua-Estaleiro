@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="430" viewBox="0 0 1200 430"
+     role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Juruá Estaleiro e Navegação</title>
+  <desc id="heroDesc">Estaleiro em Iranduba, Amazonas: construção de balsas, empurradores e terminais, logística fluvial e telemetria embarcada para navegação no Rio Negro e na bacia amazônica.</desc>
+
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0E1E38"/>
+      <stop offset="0.55" stop-color="#0A2540"/>
+      <stop offset="1" stop-color="#0B1B2E"/>
+    </linearGradient>
+    <clipPath id="heroClip">
+      <rect width="1200" height="430" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#heroClip)">
+    <rect width="1200" height="430" fill="url(#navy)"/>
+
+    <g fill="none" stroke="#4A5568" stroke-opacity="0.5" stroke-width="1.5">
+      <path d="M-40 330 C 200 292, 430 368, 700 330 S 1060 284, 1260 330"/>
+      <path d="M-40 354 C 200 316, 430 392, 700 354 S 1060 308, 1260 354"/>
+      <path d="M-40 378 C 200 340, 430 416, 700 378 S 1060 332, 1260 378"/>
+      <path d="M-40 402 C 200 364, 430 440, 700 402 S 1060 356, 1260 402"/>
+    </g>
+
+    <!-- title block -->
+    <g transform="translate(64 52)">
+      <text font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="18" letter-spacing="3" fill="#F26522">ESTALEIRO · NAVEGAÇÃO · AMAZÔNIA</text>
+
+      <text x="0" y="72" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="58" font-weight="800" fill="#FFFFFF">Juruá Estaleiro</text>
+      <text x="0" y="112" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="58" font-weight="300" fill="#FFFFFF">e Navegação</text>
+
+      <text x="0" y="158" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22" fill="#F4F6F9" opacity="0.88">Construção naval e logística fluvial na bacia</text>
+      <text x="0" y="186" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22" fill="#F4F6F9" opacity="0.88">amazônica: do aço ao comboio em operação.</text>
+
+      <g transform="translate(0 214)">
+        <rect width="176" height="54" rx="12" fill="#FFFFFF" fill-opacity="0.04" stroke="#4A5568" stroke-width="1.5"/>
+        <text x="18" y="26" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#F26522">144 mil m²</text>
+        <text x="18" y="44" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#E9ECEF" opacity="0.62">área total</text>
+
+        <rect x="190" width="176" height="54" rx="12" fill="#FFFFFF" fill-opacity="0.04" stroke="#4A5568" stroke-width="1.5"/>
+        <text x="208" y="26" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#F26522">71 mil m²</text>
+        <text x="208" y="44" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#E9ECEF" opacity="0.62">produção coberta</text>
+
+        <rect x="380" width="176" height="54" rx="12" fill="#FFFFFF" fill-opacity="0.04" stroke="#4A5568" stroke-width="1.5"/>
+        <text x="398" y="26" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#F26522">30 mil t</text>
+        <text x="398" y="44" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#E9ECEF" opacity="0.62">de aço por ano</text>
+      </g>
+
+      <text x="0" y="308" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17" fill="#E9ECEF" opacity="0.5">Iranduba/AM · margem direita do Rio Negro · desde 2008</text>
+    </g>
+
+    <!-- telemetry readout -->
+    <g transform="translate(764 52)">
+      <rect width="336" height="126" rx="16" fill="#0E1E38" stroke="#4A5568" stroke-width="1.5"/>
+      <circle cx="26" cy="28" r="6" fill="#F26522"/>
+      <text x="42" y="34" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" fill="#F26522" letter-spacing="1.2">TELEMETRIA · TEMPO REAL</text>
+      <text x="26" y="68" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="19" fill="#FFFFFF">combustível  82%</text>
+      <text x="26" y="92" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="19" fill="#FFFFFF">calado  2,4 m</text>
+      <text x="26" y="114" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" fill="#E9ECEF" opacity="0.55">comboio CJ-07 · Rio Negro</text>
+    </g>
+
+    <!-- route card -->
+    <g transform="translate(764 192)">
+      <rect width="336" height="170" rx="16" fill="#0B1B2E" stroke="#4A5568" stroke-width="1.5"/>
+
+      <path d="M18 44 C 90 28, 150 60, 214 46 S 300 24, 320 38" fill="none" stroke="#4A5568" stroke-opacity="0.85" stroke-width="2"/>
+      <path d="M18 122 C 92 138, 152 104, 216 120 S 300 142, 320 128" fill="none" stroke="#4A5568" stroke-opacity="0.85" stroke-width="2"/>
+
+      <path d="M52 88 C 128 70, 214 104, 288 80" fill="none" stroke="#F26522" stroke-width="2.5" stroke-dasharray="9 7" stroke-linecap="round"/>
+      <circle cx="52" cy="88" r="5.5" fill="#F26522"/>
+      <circle cx="288" cy="80" r="5.5" fill="#FFFFFF"/>
+
+      <g transform="translate(126 88)">
+        <rect x="0" y="6" width="62" height="17" rx="4" fill="#E9ECEF"/>
+        <rect x="64" y="0" width="24" height="23" rx="5" fill="#F26522"/>
+        <rect x="73" y="-8" width="4" height="8" fill="#FFFFFF"/>
+      </g>
+
+      <text x="40" y="74" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#F4F6F9" opacity="0.8">MANAUS</text>
+      <text x="238" y="66" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#F4F6F9" opacity="0.8">IRANDUBA</text>
+      <text x="26" y="152" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="16" fill="#E9ECEF" opacity="0.55">rota hidrográfica · Rio Negro</text>
+    </g>
+  </g>
+</svg>
